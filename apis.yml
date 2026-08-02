@@ -1,7 +1,29 @@
 aid: tensordyne
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tensordyne.png
 name: Tensordyne
-description: Tensordyne is a company surfaced as a portfolio company of mayfield and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Tensordyne (formerly Recogni) builds next-generation AI inference systems from
+  the foundation up — a proprietary logarithmic-math architecture cast into custom
+  3nm silicon, compute hardware, scale-up interconnect, and system software. Its
+  flagship Napier platform targets the fastest, lowest-cost, most energy-efficient
+  generative AI inference for hyperscaler and neocloud data centers, delivering
+  608 PFLOPS dense compute per rack in an air-cooled 30 kW pod and supporting MoE
+  models, agentic workloads, and 4K video generation. The stack integrates with
+  PyTorch, Triton, vLLM, and Kubernetes; a developer SDK is announced as coming
+  soon. Backed by Mayfield, Bosch Ventures, Toyota Ventures, GreatPoint Ventures,
+  and Plug and Play, the company has raised more than $211M and operates from
+  Sunnyvale, California and Munich, Germany.
 url: https://raw.githubusercontent.com/api-evangelist/tensordyne/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- AI Inference
+- Semiconductors
+- AI Hardware
+- Data Center
+- Machine Learning
+- Silicon
+- Generative AI
+- Deep Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,28 @@ maintainers:
 common:
 - type: Website
   url: https://tensordyne.ai
+- type: About
+  url: https://www.tensordyne.ai/about
+- type: Blog
+  url: https://www.tensordyne.ai/stories
+- type: Support
+  url: https://www.tensordyne.ai/contact
+- type: PrivacyPolicy
+  url: https://www.tensordyne.ai/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.tensordyne.ai/legal/terms-of-service
+- type: Careers
+  url: https://www.tensordyne.ai/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/tensordyne
+- type: Twitter
+  url: https://x.com/TensordyneInc
+- type: YouTube
+  url: https://youtube.com/@TensordyneInc
+- type: DomainSecurity
+  url: security/tensordyne-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
