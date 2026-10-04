@@ -48,11 +48,11 @@ modified: '2026-07-21'
 tags:
 - Company
 - Artificial Intelligence
-- AI Inference
+- Inference
 - Semiconductors
 - AI Hardware
-- Data-Center
-- Machine-Learning
+- Data Center
+- Machine Learning
 - Silicon
 - Generative AI
 - Deep Learning
@@ -67,6 +67,8 @@ tags_raw:
 - Silicon
 - Generative AI
 - Deep Learning
+- Data-Center
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
